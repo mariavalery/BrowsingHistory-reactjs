@@ -7,13 +7,15 @@ class SearchHistoryDetails extends Component {
     searchInput: '',
     searchList:initialHistoryList,
   }
+  
     onChangeSearchInput = event => {
     this.setState({searchInput: event.target.value})
   }
 deleteTodo = id => {
     const {searchList} = this.state
-    const updatedSearchList = searchList.filter(each => eachTodo.id !== id)
-
+    const updatedSearchList = searchList.filter(eachHistory => eachHistory.id !== id)
+    this.setState({searchList:updatedSearchList})
+}
 
   render() {
     const {searchInput} = this.state
