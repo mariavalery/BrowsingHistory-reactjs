@@ -1,0 +1,44 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: white;
+  height: 100vh;
+}
+.search-eachHistory-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 90%;
+  padding: 24px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  max-width: 1110px;
+}
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: blue;
+  padding: 24px;
+}
+.search-icon-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.history-icon {
+  height: 10px;
+  width: 80px;
+}
+search-icon {
+  height: 20px;
+  width: 20px;
+}
+.search-list {
+  padding-left: 0px;
+}
