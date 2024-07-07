@@ -1,5 +1,7 @@
+import BrowserHistory from './Components/BrowserHistory'
+
 import './App.css'
-import SearchHistoryDetails from './Component/SearchHistoryDetails'
+
 // These are the list used in the application. You can move them to any component needed.
 const initialHistoryList = [
   {
@@ -76,9 +78,6 @@ const initialHistoryList = [
   },
 ]
 
-const App = () => {
-  <div className="app-container">
-    <SearchHistoryDetails initialHistoryList={initialHistoryList} />
-  </div>
-}
+const App = () => <BrowserHistory initialHistoryList={initialHistoryList} />
+
 export default App
