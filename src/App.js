@@ -1,4 +1,4 @@
-import BrowserHistory from './Components/BrowserHistory'
+import BrowserHistory from './Component/BrowserHistory'
 
 import './App.css'
 
